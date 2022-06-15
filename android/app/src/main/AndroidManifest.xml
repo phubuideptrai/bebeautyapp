@@ -55,8 +55,7 @@
            android:value="@string/facebook_app_id"
            />
 
-       <meta-data android:name="com.google.android.geo.API_KEY"
-           android:value="AIzaSyAp41ZgveBzyy8Pa1Zeb2HcWWjqtKezi24"/>
+     
 
    </application>
 
