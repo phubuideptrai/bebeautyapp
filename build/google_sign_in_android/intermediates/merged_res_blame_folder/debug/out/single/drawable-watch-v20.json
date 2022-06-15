@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/phudeptraiprovip/bebeautyapp/build/google_sign_in_android/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/phudeptraiprovip/bebeautyapp/build/google_sign_in_android/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/phudeptraiprovip/bebeautyapp/build/google_sign_in_android/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    }
+]

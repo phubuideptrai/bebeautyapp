@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/bebeautyapp/BuildConfig.java
+ com.example.bebeautyapp.BuildConfig
+com/example/bebeautyapp/MainActivity.java
+ com.example.bebeautyapp.MainActivity

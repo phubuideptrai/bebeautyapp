@@ -1,0 +1,505 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bebeautyapp"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="31" />
+11    <!--
+12         Flutter needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:6:5-66
+15-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:7:5-79
+16-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:8:5-80
+17-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:9:5-65
+18-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:9:22-62
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:10:5-79
+19-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:11:5-81
+20-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
+21-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+22-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+23-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:5-79
+23-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:28:22-76
+24    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+24-->[com.android.installreferrer:installreferrer:1.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/204fdf12bfd9bfef2ba84772eb061df3/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+24-->[com.android.installreferrer:installreferrer:1.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/204fdf12bfd9bfef2ba84772eb061df3/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+25
+26    <application
+26-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:15:4-61:18
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.8.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/b4121437e7419b6effb61949808de649/core-1.8.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:17:9-43
+30        android:label="bebeautyapp"
+30-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:16:9-36
+31        android:supportsRtl="true" >
+31-->[com.facebook.android:facebook-login:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/295e9883c434c1355b0808f81dcb7ba9/jetified-facebook-login-13.2.0/AndroidManifest.xml:28:18-44
+32        <activity
+32-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:18:9-46:20
+33            android:name="com.example.bebeautyapp.MainActivity"
+33-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:19:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:22:13-163
+35            android:hardwareAccelerated="true"
+35-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:23:13-47
+36            android:launchMode="singleTop"
+36-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:20:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:21:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:24:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:29:13-32:17
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:30:15-70
+48                android:resource="@style/NormalTheme" />
+48-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:31:15-52
+49            <!--
+50                 Displays an Android View that continues showing the launch screen
+51                 Drawable until Flutter paints its first frame, then this splash
+52                 screen fades out. A splash screen is useful to avoid any visual
+53                 gap between the end of Android's launch screen and the painting of
+54                 Flutter's first frame.
+55            -->
+56            <meta-data
+56-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:38:13-41:17
+57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+57-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:39:15-79
+58                android:resource="@drawable/launch_background" />
+58-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:40:15-61
+59
+60            <intent-filter>
+60-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:42:13-45:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:43:17-68
+61-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:43:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:44:17-76
+63-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:44:27-74
+64            </intent-filter>
+65        </activity>
+66        <!--
+67            Don't delete the meta-data below.
+68            This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:49:9-51:33
+71            android:name="flutterEmbedding"
+71-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:50:13-44
+72            android:value="2" />
+72-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:51:13-30
+73        <meta-data
+73-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:52:8-56:14
+74            android:name="com.facebook.sdk.ApplicationId"
+74-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:53:12-57
+75            android:value="@string/facebook_app_id" />
+75-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:55:12-51
+76        <meta-data
+76-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:58:8-59:69
+77            android:name="com.google.android.geo.API_KEY"
+77-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:58:19-64
+78            android:value="AIzaSyAp41ZgveBzyy8Pa1Zeb2HcWWjqtKezi24" />
+78-->/Users/phudeptraiprovip/bebeautyapp/android/app/src/main/AndroidManifest.xml:59:12-67
+79
+80        <service
+80-->[:firebase_database] /Users/phudeptraiprovip/bebeautyapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[:firebase_database] /Users/phudeptraiprovip/bebeautyapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+84            <meta-data
+84-->[:firebase_database] /Users/phudeptraiprovip/bebeautyapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+85-->[:firebase_database] /Users/phudeptraiprovip/bebeautyapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_database] /Users/phudeptraiprovip/bebeautyapp/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[:cloud_firestore] /Users/phudeptraiprovip/bebeautyapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+88-->[:cloud_firestore] /Users/phudeptraiprovip/bebeautyapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:cloud_firestore] /Users/phudeptraiprovip/bebeautyapp/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:firebase_auth] /Users/phudeptraiprovip/bebeautyapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+91-->[:firebase_auth] /Users/phudeptraiprovip/bebeautyapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_auth] /Users/phudeptraiprovip/bebeautyapp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:firebase_storage] /Users/phudeptraiprovip/bebeautyapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+94-->[:firebase_storage] /Users/phudeptraiprovip/bebeautyapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_storage] /Users/phudeptraiprovip/bebeautyapp/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[:firebase_core] /Users/phudeptraiprovip/bebeautyapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] /Users/phudeptraiprovip/bebeautyapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] /Users/phudeptraiprovip/bebeautyapp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:24.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/0463e0d6b977a724d5bfcf595d74015f/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+103-->[com.google.firebase:firebase-firestore:24.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/0463e0d6b977a724d5bfcf595d74015f/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:24.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/0463e0d6b977a724d5bfcf595d74015f/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-storage:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/81b8b5e4e051ecb91a6a37c3160e8aba/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+106                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+106-->[com.google.firebase:firebase-storage:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/81b8b5e4e051ecb91a6a37c3160e8aba/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-storage:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/81b8b5e4e051ecb91a6a37c3160e8aba/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-database:20.0.3] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/e89b63767c3e2c8ddcf0ad69625d01ec/jetified-firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+109                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+109-->[com.google.firebase:firebase-database:20.0.3] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/e89b63767c3e2c8ddcf0ad69625d01ec/jetified-firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-database:20.0.3] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/e89b63767c3e2c8ddcf0ad69625d01ec/jetified-firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+111        </service>
+112        <service
+112-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+113            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+113-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+114            android:enabled="true"
+114-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+115            android:exported="false"
+115-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+116            android:foregroundServiceType="location" />
+116-->[:geolocator_android] /Users/phudeptraiprovip/bebeautyapp/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+117
+118        <provider
+118-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+119            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+119-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+120            android:authorities="com.example.bebeautyapp.flutter.image_provider"
+120-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+121            android:exported="false"
+121-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+122            android:grantUriPermissions="true" >
+122-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+123            <meta-data
+123-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+124                android:name="android.support.FILE_PROVIDER_PATHS"
+124-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+125                android:resource="@xml/flutter_image_picker_file_paths" />
+125-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+126        </provider>
+127
+128        <activity
+128-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+129            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+129-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+138-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+139
+140                <data
+140-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+141                    android:host="firebase.auth"
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+142                    android:path="/"
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+143                    android:scheme="genericidp" />
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+144            </intent-filter>
+145        </activity>
+146        <activity
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+147            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+148            android:excludeFromRecents="true"
+148-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+149            android:exported="true"
+149-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+150            android:launchMode="singleTask"
+150-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+151-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+152            <intent-filter>
+152-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+153                <action android:name="android.intent.action.VIEW" />
+153-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+153-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+154
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+155-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+156                <category android:name="android.intent.category.BROWSABLE" />
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+156-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+157
+158                <data
+158-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+159                    android:host="firebase.auth"
+159-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+160                    android:path="/"
+160-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+161                    android:scheme="recaptcha" />
+161-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+162            </intent-filter>
+163        </activity>
+164
+165        <service
+165-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+166            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+166-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+167            android:enabled="true"
+167-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+168            android:exported="false" >
+168-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+169            <intent-filter>
+169-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+170                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+170-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+170-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+171
+172                <category android:name="android.intent.category.DEFAULT" />
+172-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+172-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+173            </intent-filter>
+174        </service>
+175
+176        <provider
+176-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+177            android:name="com.google.firebase.provider.FirebaseInitProvider"
+177-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+178            android:authorities="com.example.bebeautyapp.firebaseinitprovider"
+178-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+179            android:directBootAware="true"
+179-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+180            android:exported="false"
+180-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+181            android:initOrder="100" />
+181-->[com.google.firebase:firebase-common:20.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/8ce34f11010673fe992b2bac391f6824/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+182
+183        <activity
+183-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+184            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+184-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+185            android:excludeFromRecents="true"
+185-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+186            android:exported="false"
+186-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+187            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+187-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+188        <!--
+189            Service handling Google Sign-In user revocation. For apps that do not integrate with
+190            Google Sign-In, this service will never be started.
+191        -->
+192        <service
+192-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+193            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+193-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+194            android:exported="true"
+194-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+195            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+195-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+196            android:visibleToInstantApps="true" />
+196-->[com.google.android.gms:play-services-auth:20.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ebe1e9e890b456993c6bfd28d24ba39f/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:18.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/be05b9b1d87b531701e86d49040166d5/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:18.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/be05b9b1d87b531701e86d49040166d5/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:18.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/be05b9b1d87b531701e86d49040166d5/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:18.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/be05b9b1d87b531701e86d49040166d5/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/860d7c7c3044c15a9201e40bf7175878/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/860d7c7c3044c15a9201e40bf7175878/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/860d7c7c3044c15a9201e40bf7175878/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+206
+207        <activity
+207-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:30:9-33:66
+208            android:name="com.facebook.FacebookActivity"
+208-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:31:13-57
+209            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+209-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:32:13-96
+210            android:theme="@style/com_facebook_activity_theme" />
+210-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:33:13-63
+211        <activity android:name="com.facebook.CustomTabMainActivity" />
+211-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:9-71
+211-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:34:19-68
+212        <activity
+212-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:35:9-49:20
+213            android:name="com.facebook.CustomTabActivity"
+213-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:36:13-58
+214            android:exported="true" >
+214-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:37:13-36
+215            <intent-filter>
+215-->[com.facebook.android:facebook-common:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/5feff32ebc6bd5ddaafb0a2109fd2197/jetified-facebook-common-13.2.0/AndroidManifest.xml:39:13-48:29
+216                <action android:name="android.intent.action.VIEW" />
+216-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+216-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+217
+218                <category android:name="android.intent.category.DEFAULT" />
+218-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+218-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+219                <category android:name="android.intent.category.BROWSABLE" />
+219-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+219-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+220
+221                <data
+221-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+222                    android:host="cct.com.example.bebeautyapp"
+222-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+223                    android:scheme="fbconnect" />
+223-->[com.google.firebase:firebase-auth:21.0.1] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/55bf441f5de226ec6ed71073be3090fb/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+224            </intent-filter>
+225        </activity>
+226        <!--
+227         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+228         with the application context. This config is merged in with the host app's manifest,
+229         but there can only be one provider with the same authority activated at any given
+230         point; so if the end user has two or more different apps that use Facebook SDK, only the
+231         first one will be able to use the provider. To work around this problem, we use the
+232         following placeholder in the authority to identify each host application as if it was
+233         a completely different provider.
+234        -->
+235        <provider
+235-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:41:9-44:40
+236            android:name="com.facebook.internal.FacebookInitProvider"
+236-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:42:13-70
+237            android:authorities="com.example.bebeautyapp.FacebookInitProvider"
+237-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:43:13-72
+238            android:exported="false" />
+238-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:44:13-37
+239
+240        <receiver
+240-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:46:9-52:20
+241            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+241-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:47:13-86
+242            android:exported="false" >
+242-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:48:13-37
+243            <intent-filter>
+243-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:49:13-51:29
+244                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+244-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:17-95
+244-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:50:25-92
+245            </intent-filter>
+246        </receiver>
+247        <receiver
+247-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:53:9-59:20
+248            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+248-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:54:13-118
+249            android:exported="false" >
+249-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:55:13-37
+250            <intent-filter>
+250-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:56:13-58:29
+251                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+251-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:17-103
+251-->[com.facebook.android:facebook-core:13.2.0] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/a19c60b12e3fe83acccd282cd5fc79c9/jetified-facebook-core-13.2.0/AndroidManifest.xml:57:25-100
+252            </intent-filter>
+253        </receiver>
+254
+255        <provider
+255-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+256            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+256-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+257            android:authorities="com.example.bebeautyapp.fishbunfileprovider"
+257-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+258            android:exported="false"
+258-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+259            android:grantUriPermissions="true" >
+259-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+260            <meta-data
+260-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+261                android:name="android.support.FILE_PROVIDER_PATHS"
+261-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+262                android:resource="@xml/provider_paths" />
+262-->[:image_picker_android] /Users/phudeptraiprovip/bebeautyapp/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+263        </provider>
+264
+265        <activity
+265-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+266            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+266-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+267            android:label="@string/album"
+267-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+268            android:theme="@style/FishBunTheme" />
+268-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+269        <activity
+269-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+270            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+270-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+271            android:theme="@style/FishBunTheme" />
+271-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+272        <activity
+272-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+273            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+273-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+274            android:theme="@style/DetailViewTheme" />
+274-->[com.sangcomz:FishBun:0.11.2] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/ab52f29126d82e2da0bccf49c82e35f9/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+275
+276        <uses-library
+276-->[androidx.window:window:1.0.0-beta04] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/3e018d327463d3d1584be6617817a821/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+277            android:name="androidx.window.extensions"
+277-->[androidx.window:window:1.0.0-beta04] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/3e018d327463d3d1584be6617817a821/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+278            android:required="false" />
+278-->[androidx.window:window:1.0.0-beta04] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/3e018d327463d3d1584be6617817a821/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+279        <uses-library
+279-->[androidx.window:window:1.0.0-beta04] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/3e018d327463d3d1584be6617817a821/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+280            android:name="androidx.window.sidecar"
+280-->[androidx.window:window:1.0.0-beta04] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/3e018d327463d3d1584be6617817a821/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+281            android:required="false" />
+281-->[androidx.window:window:1.0.0-beta04] /Users/phudeptraiprovip/.gradle/caches/transforms-2/files-2.1/3e018d327463d3d1584be6617817a821/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+282    </application>
+283
+284</manifest>

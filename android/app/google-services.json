@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298767265633",
+    "firebase_url": "https://be-beauty-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "be-beauty-app",
+    "storage_bucket": "be-beauty-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298767265633:android:db07c3e087620f28281f20",
+        "android_client_info": {
+          "package_name": "com.example.bebeautyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298767265633-nm34cevi1fbs9utl69c4443int4loghe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bebeautyapp",
+            "certificate_hash": "4a50df5acd05aa99b52275bcb84e53d84db56b90"
+          }
+        },
+        {
+          "client_id": "298767265633-lbika0adu7e2oack2vqjmghnvfqohmms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkW-5htzdlCocE8HfzUN_zrz-BK_Atneo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298767265633-lbika0adu7e2oack2vqjmghnvfqohmms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
